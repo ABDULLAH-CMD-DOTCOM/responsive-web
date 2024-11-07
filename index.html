@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lappy Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Lappy Collections</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Welcome to the Laptop Collection</h2>
+            <p>Explore our wide range of laptops, designed for all your needs—whether for work, gaming, or entertainment.</p>
+        </div>
+    </section>
+
+    <section id="shop" class="laptops">
+        <div class="container">
+            <h2>Our Laptops</h2>
+            <div class="laptop">
+                <img src="assets/mode-1png.jpg" alt="Laptop Model 1">
+                <h3>Laptop Model 1</h3>
+                <p>Powerful performance with sleek design.</p>
+            </div>
+            <div class="laptop">
+                <img src="assets/mode-2.png" alt="Laptop Model 2">
+                <h3>Laptop Model 2</h3>
+                <p>Lightweight and fast for everyday use.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out Us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laptop Collection. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <script>
+        // Smooth scroll functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script> -->
+
+</body>
+</html>
